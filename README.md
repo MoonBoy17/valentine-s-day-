@@ -180,9 +180,6 @@ This website prioritizes **emotional impact** over technical complexity:
 4. **Surprise & Delight** - Easter eggs reward exploration
 5. **Personal Touch** - Every element is customizable
 
-## 📸 Screenshots
-
-> Add your own screenshots here after deploying!
 
 ## 🤝 Contributing
 
@@ -209,6 +206,7 @@ Created for someone special. May your Valentine's Day be filled with joy and lov
 
 ### ⭐ If this helped you sweep someone off their feet, consider giving it a star!
 
-**Built with love by [Harsh](https://github.com/yourusername)**
+**Built with love by [Harsh](https://github.com/MoonBoy17/)**
 
 </div>
+
