@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💝</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <!-- Sparkles -->
+    <div class="sparkles">
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+    </div>
+
+    <!-- Section 1: Landing Screen -->
+    <section id="landing" class="section active">
+        <div class="content-container">
+            <h1 class="main-title">Hey Kiddo! 💕</h1>
+            <p class="subtitle">Sneha, I made something special for you...</p>
+            <button class="main-button" id="startBtn">
+                Want to see? ✨
+            </button>
+            <div class="heart-burst" id="heartBurst"></div>
+        </div>
+    </section>
+
+    <!-- Section 2: Valentine Proposal -->
+    <section id="proposal" class="section">
+        <div class="content-container">
+            <h2 class="section-title">Will You Be My Valentine? 💝</h2>
+            <p class="proposal-text">I promise to make you smile every day ☺️</p>
+            <div class="button-container">
+                <button class="choice-button yes-button" id="yesBtn">
+                    Yes! 💖
+                </button>
+                <button class="choice-button no-button" id="noBtn">
+                    No 😢
+                </button>
+            </div>
+            <p class="reaction-text" id="reactionText"></p>
+        </div>
+    </section>
+
+    <!-- Section 3: Memory Lane -->
+    <section id="memories" class="section">
+        <div class="content-container">
+            <h2 class="section-title">Our Special Moments 🌟</h2>
+            <div class="memories-grid">
+                <div class="memory-card">
+                    <div class="memory-icon">🌹</div>
+                    <h3>First Time We Met</h3>
+                    <p>All hail Lloyd, man helped us talk even though the series ended</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">😊</div>
+                    <h3>Your Smile</h3>
+                    <p>I can't witness ur smile in person, but maybe someday...</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">💭</div>
+                    <h3>Thinking of You</h3>
+                    <p>You're the first thing on my mind when I wake up, fr, the gm msg</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">🌙</div>
+                    <h3>Late Night Talks</h3>
+                    <p>Our conversations make even the longest nights feel short, but u should sleep more dumbo</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">🎵</div>
+                    <h3>Our Song</h3>
+                    <p>Every love song reminds me of us.....</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">✨</div>
+                    <h3>Every Little Thing</h3>
+                    <p>From silly jokes to deep talks, I cherish it all (U crazy girl lol)</p>
+                </div>
+            </div>
+            <button class="continue-button" id="continueToLetter">
+                Continue 💌
+            </button>
+        </div>
+    </section>
+
+    <!-- Section 4: Love Letter -->
+    <section id="letter" class="section">
+        <div class="content-container">
+            <div class="letter-container">
+                <div class="letter-header">💌 A Letter For You 💌</div>
+                <div class="letter-content" id="letterContent"></div>
+                <div class="letter-signature">
+                    <p>Forever yours,</p>
+                    <p class="signature-name">Harsh 💖</p>
+                </div>
+            </div>
+            <button class="music-toggle" id="musicToggle">
+                🎵 Play Music
+            </button>
+        </div>
+    </section>
+
+    <!-- Section 5: Celebration -->
+    <section id="celebration" class="section">
+        <div class="content-container">
+            <h1 class="celebration-title">Happy Valentine's Day! 🎉</h1>
+            <p class="celebration-message">You make every day feel like Valentine's Day 💝</p>
+            <div class="final-message">
+                <p>Thank you for being you.</p>
+                <p>Thank you for being mine.</p>
+                <p> I miss you a lot kiddo, hope this made u a bit happy</p>
+                <p class="heart-emoji">💕</p>
+            </div>
+            <div class="confetti-container" id="confettiContainer"></div>
+        </div>
+    </section>
+
+    <!-- Hidden Audio Element -->
+    <audio id="bgMusic" loop>
+        <source src="45_0HW2p0x.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Easter Egg Message -->
+    <div class="easter-egg-message" id="easterEggMessage"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
